@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Pathfinding.Enemy">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="Detected" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ARAAABEAAIAAAAIAAAIAAAAAAAAAAAAgAAAAAAAAAAg=</HashCode>
+      <FileName>Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pathfinding.Grid">
+    <Position X="2.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAJAAAAAEAAAAIAAAAAEAAAAAgCAAAACAAAAA=</HashCode>
+      <FileName>Grid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pathfinding.Main">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="changeDimensionsToolStripMenuItem" Hidden="true" />
+      <Method Name="ChangeDimensionsToolStripMenuItem_Click" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="contextMenuStrip" Hidden="true" />
+      <Method Name="CreateRandomEnemy" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="DisPwr" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="loadFileToolStripMenuItem" Hidden="true" />
+      <Method Name="LoadFileToolStripMenuItem_Click" Hidden="true" />
+      <Method Name="LoadSounds" Hidden="true" />
+      <Method Name="Main_Click" Hidden="true" />
+      <Method Name="Main_Load" Hidden="true" />
+      <Method Name="MediaEndedEvent" Hidden="true" />
+      <Field Name="musicOnToolStripMenuItem" Hidden="true" />
+      <Method Name="MusicOnToolStripMenuItem_Click" Hidden="true" />
+      <Field Name="randomizeToolStripMenuItem" Hidden="true" />
+      <Method Name="ResetToolStripMenuItem_Click" Hidden="true" />
+      <Field Name="rng" Hidden="true" />
+      <Field Name="saveBoardToFileToolStripMenuItem" Hidden="true" />
+      <Method Name="SaveBoardToFileToolStripMenuItem_Click" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>hYAkQRAACDACEAAwMhiSQEATACEIQAwFJQAhjCSABBE=</HashCode>
+      <FileName>Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pathfinding.Player">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="Player" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AQAIAAAAAIAAAAAAAAIAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pathfinding.Setting">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAACAAAAAAAEAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Setting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pathfinding.SizeInputForm">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="inputHeightText" Hidden="true" />
+      <Field Name="inputWidthText" Hidden="true" />
+      <Field Name="okButton" Hidden="true" />
+      <Method Name="SizeInputForm" Hidden="true" />
+      <Field Name="textBoxHeight" Hidden="true" />
+      <Field Name="textBoxWidth" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgACAAAAACAAAAAAAACAAAACAABCEBAABCEAAIAACAA=</HashCode>
+      <FileName>SizeInputForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
